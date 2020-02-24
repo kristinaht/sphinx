@@ -19,68 +19,57 @@ class Sphinx
     int rng = rnd.Next(1, 4);      
     Console.WriteLine("Hello! I'm the Sphinx. If you solve the riddle you get to live! If you don't, you die!!!");
     Console.WriteLine(questions[rng]);
-    // string inputAnswer = Console.ReadLine();
-    Console.WriteLine(answers[rng]);
-    // if (inputAnswer == answers[rng])
-    // {
-    //   Console.WriteLine("you are correct! You get to live, for now....");
-    // }
-    // else
-    // {
-    //   Console.WriteLine("You are incorrect, and as a consequence you shall be executed");
-    //   Main();
-    // }
+    string inputAnswer = Console.ReadLine();
+    if (inputAnswer == answers[rng])
+    {
+      Console.WriteLine("you are correct! You get to live, for now....");
+    }
+    else
+    {
+      Console.WriteLine("You are incorrect, and as a consequence you shall be executed");
+      Main();
+    }
+    Random rnd2 = new Random();
+    int rng2 = rnd2.Next(1, 4);
+    Console.WriteLine(questions[rng2]);      
+    string inputAnswer2 = Console.ReadLine();
+    if (inputAnswer2 == answers[rng2])
+    {
+      Console.WriteLine("you are correct! You get to live, for now....");
+    }
+    else
+    {
+      Console.WriteLine("You are incorrect, and as a consequence you shall be executed");
+      Main();
+    }
+    
+    Random rnd3 = new Random();
+    int rng3 = rnd3.Next(1, 4);
+    Console.WriteLine(questions[rng3]);      
+    string inputAnswer3 = Console.ReadLine();
+    if (inputAnswer3 == answers[rng3])
+    {
+      Console.WriteLine("you are correct! You get to live, for now....");
+    }
+    else
+    {
+      Console.WriteLine("You are incorrect, and as a consequence you shall be executed");
+      Main();
+    }
+    Random rnd4 = new Random();
+    int rng4 = rnd4.Next(1, 4);
+    Console.WriteLine(questions[rng4]);      
+    string inputAnswer4 = Console.ReadLine();
+    if (inputAnswer4 == answers[rng4])
+    {
+      Console.WriteLine("you are correct! You get to live, for now....");
+    }
+    else
+    {
+      Console.WriteLine("You are incorrect, and as a consequence you shall be executed");
+      Main();
+    }
+
     Console.WriteLine("you win!");
   }
 }
-// string q1 = Console.WriteLine("Question 1: What's the air speed velocity of an unladen swallow?");
-    // string answer1 = Console.ReadLine();
-    // string correctAnswer = "African or European?";
-
-    // if (answer1 == correctAnswer)
-    // {
-    //   Console.WriteLine("You get to live. For now!");
-    // }
-    // else
-    // {
-    //   Console.WriteLine("You die.");
-    //   Main();
-    // }
-    // string q2 = Console.WriteLine("Question2: What's your favorite color?");
-    // string answer2 = Console.ReadLine();
-    // string incorrectAnswer2 = "Blue";
-    // if (answer2 != incorrectAnswer2)
-    // {
-    //   Console.WriteLine("You live!");
-    // }
-    // else
-    // {
-    //   Console.WriteLine("You die.");
-    //   Main();
-    // }
-    // string q3 = Console.WriteLine("Question3: What is the Capital of Assyria?");
-    // string answer3 = Console.ReadLine();
-    // string incorrectAnswer3 = "I don't know";
-    // if(answer3 != incorrectAnswer3)
-    // {
-    //   Console.WriteLine("You live!");
-    // }
-    // else 
-    // {
-    //   Console.WriteLine("You die!");
-    //   Main();
-    // }
-    // string q4 = Console.WriteLine("Question4: What's 2 + 2?");
-    // string answer4 = Console.ReadLine();
-    // string correctAnswer4 = "4";
-    // if (answer4 == correctAnswer4)
-    // {
-    //   Console.WriteLine("You are still alive!");
-    // }
-    // else
-    // {
-    //   Console.WriteLine("You die.");
-    //   Main();
-    // }
-    // Console.WriteLine("You've successfully answered all the questions correctly! You win!");
-    // object[] questions = {q1, q2, q3, q4};
